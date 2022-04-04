@@ -1,20 +1,24 @@
 <div class="leftNav">
 
   <div class="navigationLinks" [@slideInOut]="menuOpen">
-    <span (click)="toggleMenu()" class="openClose">Open</span>
+    <div (click)="toggleMenu()" class="openClose">
+      <i class="pi pi-list"></i>
+    </div>
+
 
     <ul style="list-style: none;">
 
       <li (click)="navigationLinks('pageOne')" (keydown)="keydownFunction($event, 'pageOne')"
         [title]="(menuOpen==='in')? 'Page One':''" id="Page One">
         <!-- icon -->
-        <i class="fa fa-solid fa-house"></i>
+        <i class="pi pi-check"></i>
         <span class="dashLink" *ngIf="this.menuOpen === 'out'">Page One</span>
       </li>
 
       <li (click)="navigationLinks('pageTwo')" (keydown)="keydownFunction($event, 'pageTwo')"
         [title]="(menuOpen==='in')? 'Page Two':''" id="Page Two">
         <!-- icon -->
+        <i class="pi pi-check"></i>
         <span class="dashLink" *ngIf="this.menuOpen === 'out'">Page Two</span>
       </li>
     </ul>
