@@ -1,3 +1,20 @@
-<div class="cardStyle">
-  <div class="sitemap"></div>
+<div class="sitemap cardStyle">
+  <div class="sitemapRow">
+    <div class="sitemapColumn">
+      <h3 style="margin-top:0;">Main Pages</h3>
+
+      <ul style="list-style: none;">
+
+        <li (click)="navigationLinks('pageOne')" (keydown)="keydownFunction($event, 'pageOne')"
+        title="Page One" id="Page One">Page One
+        </li>
+
+        <li (click)="navigationLinks('pageTwo')" (keydown)="keydownFunction($event, 'pageTwo')"
+          title="Page Two" id="Page Two"> Page Two
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
 </div>

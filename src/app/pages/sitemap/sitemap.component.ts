@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SitemapComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  keydownFunction(event: { key: string; }, target: string) {
+    if (event.key === 'Enter') {
+      this.navigationLinks(target);
+    }
+  }
+  navigationLinks(target: string) {
+    switch(target) {
+
+      case target = 'pageOne': {
+        this.router.navigate(['/page-one']);
+        break;
+      }
+
+      case target = 'pageTwo': {
+        this.router.navigate(['/page-two']);
+        break;
+      }
+
+    }
   }
 
 }
