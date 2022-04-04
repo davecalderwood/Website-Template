@@ -1,0 +1,26 @@
+.leftNav {
+  height: 100vh;
+  display: flex;
+
+  .navigationLinks {
+    // background-color: gray;
+    // width: 50px;
+    // height: 100vh;
+    // position: fixed;
+    // z-index: 1;
+    margin-top: 110px;
+
+    .openClose {
+      cursor: pointer;
+    }
+
+    li {
+      cursor: pointer;
+    }
+  }
+  .navigationRoutes {
+    width: 100vw;
+    margin: 110px 0 25px 25px;
+    overflow-y: scroll;
+  }
+}

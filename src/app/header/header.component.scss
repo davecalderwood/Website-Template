@@ -1,0 +1,53 @@
+.header {
+  border: 1px solid black;
+  height: 110px;
+  background-color: rgb(81, 81, 255);
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+
+  .headerTop {
+    background-color: rgb(55, 55, 255);
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+
+    a {
+      color: white;
+    }
+  }
+
+  .headerBottom {
+    display: flex;
+    color: white;
+    height: calc(100% - 25px);
+
+    .logo {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      height: 100%;
+      width: 200px;
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex: 1;
+      font-size: 36px;
+    }
+    .loginInfo {
+      display: flex;
+      justify-content: right;
+      padding-right: 15px;
+      align-items: center;
+      height: 100%;
+      width: 200px;
+      font-size: 26px;
+    }
+  }
+}
