@@ -48,6 +48,11 @@ export class LeftNavComponent implements OnInit {
   navigationLinks(target: string) {
     switch(target) {
 
+      case target = 'dashboard': {
+        this.router.navigate(['/dashboard']);
+        break;
+      }
+
       case target = 'pageOne': {
         this.router.navigate(['/page-one']);
         break;
@@ -55,6 +60,11 @@ export class LeftNavComponent implements OnInit {
 
       case target = 'pageTwo': {
         this.router.navigate(['/page-two']);
+        break;
+      }
+
+      case target = 'settings': {
+        this.router.navigate(['/settings']);
         break;
       }
 

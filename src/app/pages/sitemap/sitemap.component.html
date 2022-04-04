@@ -5,12 +5,20 @@
 
       <ul style="list-style: none;">
 
+        <li (click)="navigationLinks('dashboard')" (keydown)="keydownFunction($event, 'dashboard')"
+          title="Dashboard" id="Dashboard">Dashboard
+        </li>
+
         <li (click)="navigationLinks('pageOne')" (keydown)="keydownFunction($event, 'pageOne')"
-        title="Page One" id="Page One">Page One
+          title="Page One" id="Page One">Page One
         </li>
 
         <li (click)="navigationLinks('pageTwo')" (keydown)="keydownFunction($event, 'pageTwo')"
           title="Page Two" id="Page Two"> Page Two
+        </li>
+
+        <li (click)="navigationLinks('settings')" (keydown)="keydownFunction($event, 'settings')"
+          title="Settings" id="Settings">Settings
         </li>
 
       </ul>

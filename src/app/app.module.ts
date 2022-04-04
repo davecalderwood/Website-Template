@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageOneComponent } from './pages/page-one/page-one.component';
 import { PageTwoComponent } from './pages/page-two/page-two.component';
 import { SitemapComponent } from './pages/sitemap/sitemap.component';
+import { SettingsComponent } from './pages/settings/settings.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { SitemapComponent } from './pages/sitemap/sitemap.component';
     LeftNavComponent,
     PageOneComponent,
     PageTwoComponent,
-    SitemapComponent
+    SitemapComponent,
+    SettingsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
