@@ -10,6 +10,7 @@ import { LeftNavComponent } from './left-nav/left-nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageOneComponent } from './pages/page-one/page-one.component';
 import { PageTwoComponent } from './pages/page-two/page-two.component';
+import { SitemapComponent } from './pages/sitemap/sitemap.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PageTwoComponent } from './pages/page-two/page-two.component';
     FooterComponent,
     LeftNavComponent,
     PageOneComponent,
-    PageTwoComponent
+    PageTwoComponent,
+    SitemapComponent
   ],
   imports: [
     BrowserModule,

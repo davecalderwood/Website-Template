@@ -8,6 +8,7 @@
       <li (click)="navigationLinks('pageOne')" (keydown)="keydownFunction($event, 'pageOne')"
         [title]="(menuOpen==='in')? 'Page One':''" id="Page One">
         <!-- icon -->
+        <i class="fa fa-solid fa-house"></i>
         <span class="dashLink" *ngIf="this.menuOpen === 'out'">Page One</span>
       </li>
 
@@ -19,7 +20,6 @@
     </ul>
   </div>
 
-  <!-- *ngIf="this.menuOpen === 'out'" -->
   <div class="navigationRoutes">
     <router-outlet></router-outlet>
   </div>
