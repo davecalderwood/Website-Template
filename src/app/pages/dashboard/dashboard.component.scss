@@ -1,0 +1,24 @@
+.dashboard {
+
+  .dashboardCards {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+      min-width: 250px;
+      height: 150px;
+      margin: 25px;
+      flex: 1;
+
+      .cardHeader {
+        height: 50px;
+        background: blue;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+      .cardRow {
+
+      }
+    }
+  }
+}
