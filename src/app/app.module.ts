@@ -13,6 +13,7 @@ import { PageTwoComponent } from './pages/page-two/page-two.component';
 import { SitemapComponent } from './pages/sitemap/sitemap.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { TabViewModule } from 'primeng/tabview';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]

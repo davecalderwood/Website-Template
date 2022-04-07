@@ -8,7 +8,7 @@
     // height: 100vh;
     // position: fixed;
     // z-index: 1;
-    margin-top: 130px;
+    margin-top: 112px;
 
     .dashLink {
       margin-left: 15px;
@@ -34,7 +34,8 @@
   }
   .navigationRoutes {
     width: 100vw;
-    margin: 130px 0 25px 25px;
+    margin: 112px 0 5px 25px;
+    padding-right: 20px;
     overflow-y: scroll;
   }
 }

@@ -1,0 +1,139 @@
+:host::ng-deep .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-disabled {
+
+  opacity: 0.55;
+
+}
+
+:host::ng-deep b, strong {
+
+    font-weight: bold;
+
+}
+
+
+
+:host::ng-deep .ui-tabview.ui-tabview-top .ui-tabview-nav {
+
+  border-bottom: 2px solid gray;
+
+  margin-right: 5px;
+
+  margin-top: 5px;
+
+  height: 42px;
+
+}
+
+
+
+:host::ng-deep.ui-tabview.ui-widget-content {
+
+  width: 100%;
+
+  padding-right: 8px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+
+
+}
+
+:host::ng-deep.ui-tabview.ui-widget-content {
+
+  background: transparent;
+
+}
+
+
+
+:host::ng-deep .ui-tabview .ui-tabview-panels {
+
+  border: 0;
+
+  background: transparent;
+
+  padding: 0.571em 0em;
+
+}
+
+
+
+:host::ng-deep.ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active {
+
+  background: #003e7e;
+
+  border: 1px solid #003e7e;
+
+}
+
+
+
+:host::ng-deep .ui-state-disabled {
+
+  opacity: 5;
+
+}
+
+
+
+:host::ng-deep .ui-tabview .ui-tabview-nav li.ui-state-disabled a {
+
+  background: transparent;
+
+  color: black;
+
+}
+
+
+
+:host::ng-deep .ui-button-text {
+
+  font-weight: bold;
+
+}
+
+
+
+:host::ng-deep .ui-tabview .ui-tabview-nav li.ui-tabview-selected a {
+
+  cursor: pointer;
+
+  background: #003e7e;
+
+  color: white;
+
+}
+
+
+
+:host::ng-deep .ui-tabview .ui-tabview-panels {
+
+  color: black;
+
+}
+
+
+
+:host::ng-deep .ui-dataview .ui-dataview-content {
+
+  background: transparent;
+
+  /* Set border to none and then add a border top
+
+     this will allow the dataview header to have a complete
+
+     border but will hide the border from the body that we
+
+     no longer want */
+
+  border: none;
+
+  border-top: 1px solid #c8c8c8;
+
+  padding: 0;
+
+}
